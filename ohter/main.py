@@ -1,0 +1,5 @@
+intNum = input('Введи число:   ')
+Sp = list(intNum)
+print(len(Sp))
+print(Sp)
+print(type(Sp))
