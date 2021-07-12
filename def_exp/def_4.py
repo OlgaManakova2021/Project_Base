@@ -10,4 +10,4 @@ def cylinder():
 print('Площадь')
 sCyl, fCyl = cylinder()
 print("Площадь боковой поверхности: ", sCyl)
-print("Полная площадь", fCyl)
+print("Полная площадь фигуры", fCyl)
