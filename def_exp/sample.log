@@ -1,0 +1,23 @@
+ERROR:ex:ValueError
+Traceback (most recent call last):
+  File "C:/PythonProjects/zab/def_exp/def_try_except.py", line 10, in try_except
+    d = int(d)
+ValueError: invalid literal for int() with base 10: 'poi'
+ERROR:ex:Запуск программы
+NoneType: None
+ERROR:ex:ValueError
+Traceback (most recent call last):
+  File "C:/PythonProjects/zab/def_exp/def_try_except.py", line 11, in try_except
+    d = int(d)
+ValueError: invalid literal for int() with base 10: 'шгн'
+ERROR:ex:Запуск программы
+NoneType: None
+ERROR:ex:ValueError
+Traceback (most recent call last):
+  File "C:/PythonProjects/zab/def_exp/def_try_except.py", line 11, in try_except
+    d = int(d)
+ValueError: invalid literal for int() with base 10: '8.9'
+ERROR:ex:Запуск программы
+NoneType: None
+ERROR:ex:Программа успешно завершена
+NoneType: None
