@@ -14,4 +14,3 @@ squares = sq_all(numbers)
 
 for i in squares:
     print(i)
-
