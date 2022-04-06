@@ -12,8 +12,6 @@ with sq.connect('saper.db') as con:
     #     score INTEGER
     # )""")
 
-with sq.connect('saper.db') as con:
-    cur = con.cursor()
 
     # cur.execute("INSERT INTO users VALUES (1, 'Алексей', 1, 22, 1000)")
     # cur.execute("INSERT INTO users VALUES (2, 'Миша', 1, 19, 800)")
@@ -27,15 +25,21 @@ with sq.connect('saper.db') as con:
     # result = cur.fetchall()
     # print(result)
 
-    cur.execute("SELECT * FROM users WHERE score > 1000 ORDER BY score DESC")
-    for result in cur:
-        print(result)
+    # cur.execute("SELECT * FROM users WHERE score > 1000 ORDER BY score DESC")
+    # for result in cur:
+    #     print(result)
+    #
+    # cur.execute("SELECT * FROM users")
+    # result1 = cur.fetchone()
+    # result2 = cur.fetchmany(2)
+    # print(result1)
+    # print(result2)
 
-    cur.execute("SELECT * FROM users")
-    result1 = cur.fetchone()
-    result2 = cur.fetchmany(2)
-    print(result1)
-    print(result2)
+    cur.execute("UPDATE users SET score = score+100 WHERE name LIKE 'М%'")
+
+
+
+
 
 
 
