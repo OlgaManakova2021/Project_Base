@@ -21,3 +21,4 @@ for i in open('data_2.txt', encoding='UTF-8'):
     nums.append(i[:-1])
 print(nums)
 print('получаем тип', type(nums))
+

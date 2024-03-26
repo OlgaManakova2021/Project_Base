@@ -54,3 +54,6 @@ button1.bind('<Button-1>',count_num)
 
 
 root.mainloop()
+
+
+

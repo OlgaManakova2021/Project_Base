@@ -2,11 +2,11 @@ from tkinter import *
 from tkinter import ttk
 
 root = Tk()
-root.title("Привет мир!")
+root.title("Привет осень!")
 root.geometry('300x40')
 
 def button_clicked():
-    print("Hello World!")
+    print("Hello мир!")
 
 def close():
     root.destroy()
