@@ -1,19 +1,17 @@
 # tuplex = (4, 6, 2, 8, 3, 1)
 # print(tuplex)
-
+#
 # tuplex = tuplex + (9,)
 # print(tuplex)
-# print(*tuplex)
-#
-#
 #
 # x = (5, 10, 15, 20)
-
+#
 # print(type(x))
 # y = reversed(x)
 # print(tuple(y))
 # print(type(y))
 #
+# print(*tuplex)
 # a, b, *c = tuplex
 # print(a,b,c)
 # f = a + b
@@ -30,6 +28,7 @@ c = 40
 max = a if a > b else b
 max = c if c > max else max
 print(max)
+print(a)
 
 # Дано целое число. Если оно является положительным,
 # то прибавить к нему 20, в противном случае вычесть из него 5/

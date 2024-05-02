@@ -2,7 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/BD 2024/saper.db" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/OOP_Syn/__init__.py" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/Synergy/OOP_Syn/__init__.py" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/Synergy/file/out.bin" charset="windows-1251" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

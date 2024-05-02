@@ -9,14 +9,21 @@ class User:
 
 import pickle
 
-# with open("User.bin", "wb") as file:
-#     pickle.dump(User, file)
+with open("User.bin", "wb") as file:
+    pickle.dump(User, file)
 
 with open("User.bin", "rb") as file:
    user = pickle.load(file)
 
-# print(file)
+# print(id(user), id(User))
 
-a = User(10, "Max")
-a.get_values()
+Max = user(10, "Max")
+# print(Max.age)
+# print(Max.name)
+Max.get_values()
+
+Tom = user(15, "Tom")
+# print(Tom.age)
+# print(Tom.name)
+Tom.get_values()
 
