@@ -1,4 +1,4 @@
-file = open("out.bin", "wb")
+# file = open("out.bin", "wb")
 import pickle
 actor1 = ["Alex", "26", 35000]
 actor2 = ["Martin", "24", 42000]

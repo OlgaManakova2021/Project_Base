@@ -3,17 +3,17 @@
 # остался упорядоченным по возрастанию.
 
 import random
-a,b,c = [],[],[]
+a, b, c = [], [], []
 i = 0
 while i < 5:
-    a.append(random.randrange(0,20))
+    a.append(random.randrange(0, 20))
     b.append(random.randrange(0, 20))
     i += 1
 
 a.sort()
 b.sort()
-print('Массив А:  ',a)
-print('Массив В:  ',b)
+print('Массив А:  ', a)
+print('Массив В:  ', b)
 c = a + b
 c.sort()
-print('Массив C:  ',c)
+print('Массив C:  ', c)

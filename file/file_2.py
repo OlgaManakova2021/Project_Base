@@ -8,5 +8,5 @@ f2.close()
 
 f2 = open('data.txt')
 print(f2.read())
-print(type(f2.read())) # получаем тип - строка
+# print(type(f2.read())) # получаем тип - строка
 f2.close()

@@ -2,7 +2,7 @@ import os
 
 # создать новый текстовый файл
 # text_file = open("text.txt", "w")
-# # запись текста в этот файл
+# # # запись текста в этот файл
 # text_file.write("Это текстовый файл")
 # text_file.close()
 
@@ -13,16 +13,16 @@ import os
 # os.replace("renamed-text.txt", "folder/renamed-text.txt")
 
 # распечатать все файлы и папки в текущем каталоге
-print("Все папки и файлы:", os.listdir())
+# print("Все папки и файлы:", os.listdir())
 
 # распечатать все файлы и папки рекурсивно
-for dirpath, dirnames, filenames in os.walk("."):
-    # перебрать каталоги
-    for dirname in dirnames:
-        print("Каталог:", os.path.join(dirpath, dirname))
-    # перебрать файлы
-    for filename in filenames:
-        print("Файл:", os.path.join(dirpath, filename))
+# for dirpath, dirnames, filenames in os.walk("."):
+#     # перебрать каталоги
+#     for dirname in dirnames:
+#         print("Каталог:", os.path.join(dirpath, dirname))
+#     # перебрать файлы
+#     for filename in filenames:
+#         print("Файл:", os.path.join(dirpath, filename))
 
 # удалить созданный файл
 # os.remove("folder/renamed-text.txt")

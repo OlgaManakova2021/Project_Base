@@ -37,8 +37,9 @@ for i in range(len(k)):
     max = max if max > k[i] else k[i]
     if k[i] < 0:
         t += 1
+f3.close()
 
 f4 = open('data_4.txt', 'a')  # открываем файл для дозаписи
 f4.write('\n')
-print('Количество элементов:  ', len(k), 'Максимальный элемент:  ', max, file=f4)
+print('Количество элементов:  ', len(k), 'Максимальный элемент:  ', max, t, file=f4)
 f4.close()
