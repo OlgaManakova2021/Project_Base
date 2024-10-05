@@ -34,10 +34,10 @@ import os
 # os.removedirs("nested1/nested2/nested3")
 
 # вывести некоторые данные о файле
-print(os.stat("text.txt"))
+# print(os.stat("text.txt"))
 
 # например, получить размер файла
-print("Размер файла:", os.stat("text.txt").st_size)
+# print("Размер файла:", os.stat("text.txt").st_size)
 
 
 

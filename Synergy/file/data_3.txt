@@ -1,4 +1,0 @@
-actor1 = ["Alex", "26", 35000]
-actor2 = ["Martin", "24", 42000]
-actor3 = ["Kevin", "22", 53000]
-actor4 = ["Max", "23", 78000]

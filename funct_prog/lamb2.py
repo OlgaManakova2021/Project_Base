@@ -2,14 +2,14 @@
 #                  'модель': 'бабочка', 'наименование': 'книга', 'жанр': 'триллер'}
 # print(dict(sorted(unsorted_dict.items(), key=lambda item: item[1])))
 
-# def prod(lst):
-#     prod = 1
-#     for i in lst:
-#         prod *= i
-#     return prod
-#
-# lst = list(map(int, input("введи через элементы списка:  ").split()))
-# print(prod(lst))
+def prod(lst):
+    prod = 1
+    for i in lst:
+        prod *= i
+    return prod
+
+lst = list(map(int, input("введи через элементы списка:  ").split()))
+print(prod(lst))
 
 # import math
 # lst = list(map(int, input("введи через элементы списка:  ").split()))

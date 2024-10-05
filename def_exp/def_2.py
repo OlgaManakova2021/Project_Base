@@ -1,23 +1,21 @@
 def rectangle():
-    """Вычисление площади прямоугольника"""
+    # Вычисление площади прямоугольника
     a = float(input("Ширина %s: " % figure)) # обращение к глобальной
     b = float(input("Высота %s: " % figure)) # переменной figure
-    return print("Площадь: %.2f" % (a*b))
+    print("Площадь: %.2f" % (a*b))
 
 def triangle():
-    """Вычисление площади треугольника
+    # Вычисление площади треугольника
+    # Используется общепринятая формула
 
-    Используется общепринятая формула
-
-    """
     a = float(input("Основание %s: " % figure))
     h = float(input("Высота %s: " % figure))
-    return print("Площадь: %.2f" % (0.5 * a * h))
+    print("Площадь: %.2f" % (0.5 * a * h))
 
 figure = input("1-прямоугольник, 2-треугольник: ")
 if figure == '1':
     rectangle()
 elif figure == '2':
     triangle()
-
-print(rectangle.__doc__)
+elif figure > '2':
+    print("Введи 1 или 2")

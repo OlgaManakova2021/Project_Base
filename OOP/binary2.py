@@ -15,8 +15,6 @@ with open("User.bin", "wb") as file:
 with open("User.bin", "rb") as file:
    user = pickle.load(file)
 
-# print(file)
-
 a = User(10, "Max")
 a.get_values()
 
